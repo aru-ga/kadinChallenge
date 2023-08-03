@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ngetik {
+    border-right: 2px solid #f1f1f1;
+    animation: blinkTextCursor 800ms steps(44) infinite normal;
+    font-family: 'Fira Code', monospace;
+  }
+  
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: #f1f1f1;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+  
+  #navbar {
+    position: fixed;
+    transition: 350ms ease-in-out;
+  }
+  
+  #navbar.sticky {
+    width: 100%;
+    border-radius: 0%;
+  }
+  
+  #mobairu{
+    transition: 200ms ease;
+  }
+  .gradient-heading {
+    background: linear-gradient(45deg, #ff7f00, #ff3e00, #ff007f, #911691, #8000ff, #00ffff, #00ff00, #ffff00);
+    background-size: 800% 800%;
+    -webkit-animation: gradientAnimation 5s ease infinite;
+    -moz-animation: gradientAnimation 5s ease infinite;
+    animation: gradientAnimation 2s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 2em;
+    line-height: 1;
+  }
+  
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  /* 
+  .glowing-text {
+    text-shadow: 0 0 5px rgb(34 211 238), 0 0 15px rgb(34 211 238),0 0 25px rgb(34 211 238);
+  } */
+  
+  .timeline-circle {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    transform: translateX(-30%);
+  } 
+  .timeline-middle {
+    position: relative;
+    background-color:  rgb(6 182 212);
+    width: .3em;
+    height: 100%;
+  }
+  .timeline {
+    display: grid;
+      grid-template-columns: 1fr .3em 1fr;
+   }
+  
+   .-mt-full{
+    margin-top: -100rem;
+   }
