@@ -6,21 +6,6 @@
 .lobs{
   font-family: 'Playfair Display', serif;
 }
-
-.ngetik {
-    border-right: 2px solid #f1f1f1;
-    animation: blinkTextCursor 800ms steps(44) infinite normal;
-    font-family: 'Fira Code', monospace;
-  }
-  
-  @keyframes blinkTextCursor {
-    from {
-      border-right-color: #f1f1f1;
-    }
-    to {
-      border-right-color: transparent;
-    }
-  }
   
   #navbar {
     position: fixed;
