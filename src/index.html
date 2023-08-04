@@ -10,17 +10,19 @@
 <body>
     <header class="flex justify-center bg-slate-300 dark:bg-slate-900 text-slate-950 dark:text-slate-50">
         <nav id="navbar" class="drop-shadow-xl p-5 border-cyan-400 transition flex justify-between items-center w-full z-50 fixed">
-          <div id="left-side" class="flex">
-            <a href="https://www.github.com/aru-ga" target="_blank" class="font-thin">
-              <img src="https://avatars.githubusercontent.com/u/82811745?v=4" alt="" class="h-9 xl:mx-3 rounded-full inline"> <p class="md:inline-block xl:inline-block hidden">Muhammad Fargazzi</p>
-            </a>
+          <div id="left-side" class="flex justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 inline">
+              <path fill-rule="evenodd" d="M19.449 8.448L16.388 11a4.52 4.52 0 010 2.002l3.061 2.55a8.275 8.275 0 000-7.103zM15.552 19.45L13 16.388a4.52 4.52 0 01-2.002 0l-2.55 3.061a8.275 8.275 0 007.103 0zM4.55 15.552L7.612 13a4.52 4.52 0 010-2.002L4.551 8.45a8.275 8.275 0 000 7.103zM8.448 4.55L11 7.612a4.52 4.52 0 012.002 0l2.55-3.061a8.275 8.275 0 00-7.103 0zm8.657-.86a9.776 9.776 0 011.79 1.415 9.776 9.776 0 011.414 1.788 9.764 9.764 0 010 10.211 9.777 9.777 0 01-1.415 1.79 9.777 9.777 0 01-1.788 1.414 9.764 9.764 0 01-10.212 0 9.776 9.776 0 01-1.788-1.415 9.776 9.776 0 01-1.415-1.788 9.764 9.764 0 010-10.212 9.774 9.774 0 011.415-1.788A9.774 9.774 0 016.894 3.69a9.764 9.764 0 0110.211 0zM14.121 9.88a2.985 2.985 0 00-1.11-.704 3.015 3.015 0 00-2.022 0 2.985 2.985 0 00-1.11.704c-.326.325-.56.705-.704 1.11a3.015 3.015 0 000 2.022c.144.405.378.785.704 1.11.325.326.705.56 1.11.704.652.233 1.37.233 2.022 0a2.985 2.985 0 001.11-.704c.326-.325.56-.705.704-1.11a3.016 3.016 0 000-2.022 2.985 2.985 0 00-.704-1.11z" clip-rule="evenodd" />
+            </svg>
+            
+          <p class="md:inline xl:inline hidden">sailmaster</p>
           </div>
-          <div class="hidden flex-row xl:gap-10 sm:flex mr-36 font-normal">
-            <a href="#" class="duration-300 hover:text-emerald-600 hover:font-semibold xl:flex md:flex sm:flex">Home</a>
-            <a href="#about" class="border-transparent hover:text-emerald-600 hover:font-semibold duration-300 xl:flex md:flex sm:flex">About</a>
-            <a href="#timeline" class="border-transparent hover:text-emerald-600 duration-300 xl:flex md:flex sm:flex">Timeline</a>
-            <a href="#cert" class="border-transparent hover:text-emerald-600 hover:font-semibold duration-300 xl:flex md:flex sm:flex">Cert</a>
-            <a href="#footer" class="border-transparent hover:text-emerald-600 hover:font-semibold duration-300 xl:flex md:flex sm:flex">Footer</a>
+          <div class="hidden flex-row xl:gap-10 sm:flex font-normal">
+            <a href="#" class="duration-300 hover:text-cyan-500 hover:font-semibold xl:flex md:flex sm:flex">Home</a>
+            <a href="#about" class="border-transparent hover:text-cyan-500 hover:font-semibold duration-300 xl:flex md:flex sm:flex">About</a>
+            <a href="#timeline" class="border-transparent hover:text-cyan-500 duration-300 xl:flex md:flex sm:flex">Timeline</a>
+            <a href="#cert" class="border-transparent hover:text-cyan-500 hover:font-semibold duration-300 xl:flex md:flex sm:flex">Cert</a>
+            <a href="#footer" class="border-transparent hover:text-cyan-500 hover:font-semibold duration-300 xl:flex md:flex sm:flex">Footer</a>
           </div>
           <div id="theme-toggle" class="flex cursor-pointer">
             <svg id="sun" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -50,9 +52,16 @@
           <section id="hero">          
               <div class="flex flex-col items-center h-screen bg-[url('../assets/img/hero.jpg')] bg-cover bg-repeat-space">
                 <div class="justify-center w-full h-screen backdrop-brightness-75 backdrop-blur-sm flex flex-col items-center">
-                  <div class="heading text-center">
+                  <div class="heading text-center flex flex-col justify-around">
                     <h1 class="text-5xl lobs text-white">SailMaster Navigator | Ultimate Sailor's Guide</h1>
-                    <h5>Navigating the Seas with Confidence and Expertise</h5>
+                    <h5 class="italic">"Navigating the Seas with Confidence and Expertise"</h5>
+                    <h5 class="mx-32 text-center mt-14">Welcome aboard to SailMaster Navigator, your go-to resource for all things sailing. Whether you're a seasoned sailor or just beginning your nautical journey, we're here to help you chart your course to adventure, safety, and skillful sailing.</h5>
+                    <h5 class="animate-pulse ">SET SAIL NOW <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
+                      </svg>
+                    </span>                  
+                    </h5>
                   </div>
                   
                 </div>
@@ -65,217 +74,94 @@
             </section>
           <section id="about" >
               <div class="flex flex-col justify-center items-center h-screen text-center font-sans font-thin">
-                <div class="text w-2/3 text-center">
-                  <p>Welcome aboard to SailMaster Navigator, your go-to resource for all things sailing. Whether you're a seasoned sailor or just beginning your nautical journey, we're here to help you chart your course to adventure, safety, and skillful sailing.
-
-                    Set sail with confidence as you explore our comprehensive guides, expert advice, and a vibrant community of fellow sailors. From mastering navigation techniques to understanding the intricacies of marine life, we're your compass on this exciting maritime voyage.
-                    
-                    Join us on this captivating journey where the horizon is limitless and the sea is our shared passion. The winds are calling, and the tides await your command. Navigate with us, and let's make every voyage a remarkable tale to tell.</p>
+                <div class="text w-2/3 text-center text-2xl">
+                  <p>"Set sail with confidence as you explore our comprehensive guides, expert advice, and a vibrant community of fellow sailors. From mastering navigation techniques to understanding the intricacies of marine life, we're your compass on this exciting maritime voyage.
+                    <br>
+                    Join us on this captivating journey where the horizon is limitless and the sea is our shared passion. The winds are calling, and the tides await your command. Navigate with us, and let's make every voyage a remarkable tale to tell."</p>
                 </div>
               </div>
           </section>
           <section id="timeline" class="pt-16">
-            <div class="timeline-text flex flex-col items-center text-center">
-              <h1 class="border-b-2 border-cyan-400 mb-10 font-bold">Timeline</h1>
+            <div class="flex flex-col items-center text-center">
+              <h1 class="border-b-2 border-cyan-400 mb-10 font-bold">sailing essentials</h1>
             </div>
-            <div class="timeline-cont flex justify-center">
-              <div class="nodeline flex justify-around">
-                <div class="design-section">
-                  <div class="timeline">
-                    <div class="flex justify-end mr-3 -mt-1">
-                      <h3>2018 - 2021</h3>
-                    </div>
-                    <div class="timeline-middle">
-                      <div class="timeline-circle bg-slate-900 dark:bg-slate-50"></div>
-                    </div>
-                    <div class="timeline-component timeline-content  rounded-lg p-7 transition duration-400 ease-in-out m-4">
-                      <h3 class="font-semibold">Javascript</h3>
-                      <p>Some Text.</p>
-                    </div>
-                    <div class="flex justify-end mr-3 -mt-1">
-                      <h3>&nbsp;&nbsp;2022</h3>
-                    </div>
-                    <div class="timeline-middle">
-                      <div class="timeline-circle bg-slate-900 dark:bg-slate-50"></div>
-                    </div>
-                    <div class="timeline-component timeline-content  rounded-lg p-7 transition duration-400 ease-in-out m-4">
-                      <h3 class="font-semibold">Javascript</h3>
-                      <p>Some Text.</p>
-                    </div>
-                    <div class="flex justify-end mr-3 -mt-1">
-                      <h3>&nbsp;&nbsp;2022</h3>
-                    </div>
-                    <div class="timeline-middle">
-                      <div class="timeline-circle bg-slate-900 dark:bg-slate-50"></div>
-                    </div>
-                    <div class="timeline-component timeline-content rounded-lg p-7 transition duration-400 ease-in-out m-4">
-                      <h3 class="font-semibold">Javascript</h3>
-                      <p>Some Text.</p>
-                    </div>
-                    <div class="flex justify-end mr-3 -mt-1"></div>
-                    <div class="timeline-middle">
-                      <div class="timeline-circle bg-slate-900 dark:bg-slate-50"></div>
-                    </div>
-                    <div class="timeline-component timeline-content rounded-lg p-7 transition duration-400 ease-in-out m-4">
-                      <h3 class="font-semibold">Javascript</h3>
-                      <p>Some Text.</p>
-                    </div>
-                    <div class="timeline-component timeline-content rounded-lg p-7 transition duration-400 ease-in-out m-4">
-                    </div>
-                    <div class="timeline-circle">
-                      <h3 class="mt-5 -ml-7 inline italic text-slate-500 font-bold">progressing
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="animate-spin w-6 h-6">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M16.712 4.33a9.027 9.027 0 011.652 1.306c.51.51.944 1.064 1.306 1.652M16.712 4.33l-3.448 4.138m3.448-4.138a9.014 9.014 0 00-9.424 0M19.67 7.288l-4.138 3.448m4.138-3.448a9.014 9.014 0 010 9.424m-4.138-5.976a3.736 3.736 0 00-.88-1.388 3.737 3.737 0 00-1.388-.88m2.268 2.268a3.765 3.765 0 010 2.528m-2.268-4.796a3.765 3.765 0 00-2.528 0m4.796 4.796c-.181.506-.475.982-.88 1.388a3.736 3.736 0 01-1.388.88m2.268-2.268l4.138 3.448m0 0a9.027 9.027 0 01-1.306 1.652c-.51.51-1.064.944-1.652 1.306m0 0l-3.448-4.138m3.448 4.138a9.014 9.014 0 01-9.424 0m5.976-4.138a3.765 3.765 0 01-2.528 0m0 0a3.736 3.736 0 01-1.388-.88 3.737 3.737 0 01-.88-1.388m2.268 2.268L7.288 19.67m0 0a9.024 9.024 0 01-1.652-1.306 9.027 9.027 0 01-1.306-1.652m0 0l4.138-3.448M4.33 16.712a9.014 9.014 0 010-9.424m4.138 5.976a3.765 3.765 0 010-2.528m0 0c.181-.506.475-.982.88-1.388a3.736 3.736 0 011.388-.88m-2.268 2.268L4.33 7.288m6.406 1.18L7.288 4.33m0 0a9.024 9.024 0 00-1.652 1.306A9.025 9.025 0 004.33 7.288" />
-                        </svg>                      
-                      </h3>
-                    </div>
-                  </div>
-                </div>
+            <div class="flex h-96 bg-cover rounded-xl mx-5 items-center justify-between bg-[url('../assets/img/sailing.jpg')] shadow-lg">
+              <div >
+              </div>
+              <div class="bg-white w-2/4 h-full rounded-r-xl p-20 flex items-center dark:bg-slate-700 dark:text-slate-50">
+                <p class="border-l-2 p-3 border-l-cyan-300">Embarking on a sailing adventure requires proper preparation and the right gear. Whether you're a beginner or a seasoned sailor, having the essential equipment ensures you're ready to navigate the open waters with confidence. Explore the must-have items that every sailor should have on board.</p>
               </div>
             </div>
+              <div class="card-cont mt-10 xl:flex-wrap flex xl:flex-row xl:gap-10 items-center justify-center hover:overflow-visible">
+
+                <div class="card shadow-lg flex xl:flex flex-col h-80 w-3/12 rounded-lg xl:h-96 bg-slate-50 dark:bg-slate-900 mb-5">
+                  <img src="../assets/img/sail.jpg" class="w-full h-40 rounded-t-lg mr-5" alt="">
+                  <div class="card-text p-10 mt-3 xl:mt-0 xl:flex xl:flex-col xl:justify-center">
+                    <p class="-mt-6 mb-4 font-bold text-lg xl:text-lg transition">Sails and Rigging</p>
+                    <p class="text-slate-900 dark:text-slate-50 text-sm">Discover different types of sails and rigging setups, from mainsails to jibs.</p>
+                    <p class="text-slate-500 dark:text-gray-400 mt-2 text-xs">Learn how to hoist, trim, and reef your sails for optimal performance in varying wind conditions.</p>
+                  </div>
+                </div> 
+              
+                <div class="card shadow-lg flex xl:flex flex-col h-80 w-3/12 rounded-lg xl:h-96 bg-slate-50 dark:bg-slate-900 mb-5">
+                  <img src="../assets/img/safe.jpg" class="w-full h-40 rounded-t-lg mr-5" alt="">
+                  <div class="card-text p-10 mt-3 xl:mt-0 xl:flex xl:flex-col xl:justify-center">
+                    <p class="-mt-6 mb-4 font-bold text-lg xl:text-lg transition">Safety Gear</p>
+                    <p class="text-slate-900 dark:text-slate-50 text-sm">Prioritize safety with a range of equipment.</p>
+                    <p class="text-slate-500 dark:text-gray-400 mt-2 text-xs">Including life-saving jackets, distress signals, and medical kits. Learn how to use these tools effectively in emergencies.</p>
+                  </div>
+                </div> 
+              
+                <div class="card shadow-lg flex xl:flex flex-col h-80 w-3/12 rounded-lg xl:h-96 bg-slate-50 dark:bg-slate-900 mb-5">
+                  <img src="../assets/img/seanav.jpg" class="w-full h-40 rounded-t-lg mr-5" alt="">
+                  <div class="card-text p-10 mt-3 xl:mt-0 xl:flex xl:flex-col xl:justify-center">
+                    <p class="-mt-6 mb-4 font-bold text-lg xl:text-lg transition">Navigation Tools</p>
+                    <p class="text-slate-900 dark:text-slate-50 text-sm"> Navigate with precision using several advanced tools</p>
+                    <p class="text-slate-500 dark:text-gray-400 mt-2 text-xs">Introduce you with GPS devices, charts, compasses, and sextants. Gain insights into chart reading, plotting courses, and celestial navigation.</p>
+                  </div>
+                </div> 
+              
+                <div class="card shadow-lg flex xl:flex flex-col h-80 w-3/12 rounded-lg xl:h-96 bg-slate-50 dark:bg-slate-900 mb-5">
+                  <img src="../assets/img/seanav.jpg" class="w-full h-40 rounded-t-lg mr-5" alt="">
+                  <div class="card-text p-10 mt-3 xl:mt-0 xl:flex xl:flex-col xl:justify-center">
+                    <p class="-mt-6 mb-4 font-bold text-lg xl:text-lg transition">Communication Devices</p>
+                    <p class="text-slate-900 dark:text-slate-50 text-sm">Always in touch with lands.</p>
+                    <p class="text-slate-500 dark:text-gray-400 mt-2 text-xs">Stay connected on the open water with communication devices such as VHF radios and satellite phones. Learn about distress signals and proper radio etiquette.</p>
+                  </div>
+                </div> 
+              
+                <div class="card shadow-lg flex xl:flex flex-col h-80 w-3/12 rounded-lg xl:h-96 bg-slate-50 dark:bg-slate-900 mb-5">
+                  <img src="../assets/img/seanav.jpg" class="w-full h-40 rounded-t-lg mr-5" alt="">
+                  <div class="card-text p-10 mt-3 xl:mt-0 xl:flex xl:flex-col xl:justify-center">
+                    <p class="-mt-6 mb-4 font-bold text-lg xl:text-lg transition">Weather vane or anemometer</p>
+                    <p class="text-slate-900 dark:text-slate-50 text-sm">Monitor weather conditions using instruments like weather vanes and anemometers.</p>
+                    <p class="text-slate-500 dark:text-gray-400 mt-2 text-xs">Understand how to interpret weather forecasts and make informed decisions.</p>
+                  </div>
+                </div> 
+              
+                <div class="card shadow-lg flex xl:flex flex-col h-80 w-3/12 rounded-lg xl:h-96 bg-slate-50 dark:bg-slate-900 mb-5">
+                  <img src="../assets/img/seanav.jpg" class="w-full h-40 rounded-t-lg mr-5" alt="">
+                  <div class="card-text p-10 mt-3 xl:mt-0 xl:flex xl:flex-col xl:justify-center">
+                    <p class="-mt-6 mb-4 font-bold text-lg xl:text-lg transition">Anchoring and Mooring</p>
+                    <p class="text-slate-900 dark:text-slate-50 text-sm"> Master the art of anchoring and mooring techniques.</p>
+                    <p class="text-slate-500 dark:text-gray-400 mt-2 text-xs">Explore different anchor types, rope selection, and best practices for secure docking.</p>
+                  </div>
+                </div> 
+              
+
+              </div>
+
+
+
           </section>
           <section id="cert" class="pt-16">
             <div class="title flex justify-center items-center my-10">
               <a href="cert" class=" text-center  font-semibold border-b-2 border-b-cyan-400">Cert n Licenses</a>
             </div>
-            <div class="card-cont flex-wrap gap-7 xl:flex-wrap flex xl:flex-row items-center xl:gap-10 justify-center md:flex-row md:gap-3 hover:overflow-visible">
-              <div class="card w-60 shadow-lg flex xl:flex xl:w-64 rounded-lg xl:h-max bg-slate-50 dark:bg-slate-900 mb-5">
-                <img src="img/dicoding.jpg" class="xl:w-28 w-24 rounded-l-lg mr-5" alt="">
-                <div class="card-text mt-3 xl:mt-0 xl:flex xl:flex-col xl:justify-center">
-                  <p class="text-slate-900 dark:text-slate-50 font-bold text-sm xl:text-base">Basic SQL</p>
-                  <p class="text-slate-700 dark:text-gray-400 text-xs">Dicoding</p>
-                  <a href="https://www.dicoding.com/certificates/L4PQG5OMQZO1" target="_blank" class="group -mb-2 xl:mt-7 rounded-b-lg font-bold text-xs xl:text-xs transition duration-300 text-cyan-400 active:text-cyan-600">credential
-                  <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline-block w-4 h-4 xl:w-4 xl:h-4 text-cyan-400 group-hover:ml-2 xl:group-hover:ml-1 duration-200 group-hover:text-cyan-100">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                  </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="card w-60 shadow-lg flex xl:flex xl:w-64 rounded-lg xl:h-max bg-slate-50 dark:bg-slate-900 mb-5">
-                <img src="img/dicoding.jpg" class="xl:w-28 w-24 rounded-l-lg mr-5" alt="">
-                <div class="card-text mt-3 xl:mt-0 xl:flex xl:flex-col xl:justify-center">
-                  <p class="text-slate-900 dark:text-slate-50 font-bold text-sm xl:text-base">AWS Cloud</p>
-                  <p class="text-slate-700 dark:text-gray-400 text-xs">Dicoding</p>
-                  <a href="https://www.dicoding.com/certificates/RVZKOERLQPD5" target="_blank" class="group -mb-2 xl:mt-7 rounded-b-lg font-bold text-xs xl:text-xs transition duration-300 text-cyan-400 active:text-cyan-600">credential
-                  <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline-block w-4 h-4 xl:w-4 xl:h-4 text-cyan-400 group-hover:ml-2 xl:group-hover:ml-1 duration-200 group-hover:text-cyan-100">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                  </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="card w-60 shadow-lg flex xl:flex xl:w-64 rounded-lg xl:h-max bg-slate-50 dark:bg-slate-900 mb-5">
-                <img src="img/dicoding.jpg" class="xl:w-28 w-24 rounded-l-lg mr-5" alt="">
-                <div class="card-text mt-3 xl:mt-0 xl:flex xl:flex-col xl:justify-center">
-                  <p class="text-slate-900 dark:text-slate-50 font-bold text-sm xl:text-base">Basic Javascript</p>
-                  <p class="text-slate-700 dark:text-gray-400 text-xs">Dicoding</p>
-                  <a href="https://www.dicoding.com/certificates/07Z6V48DWXQR" target="_blank" class="group -mb-2 xl:mt-7 rounded-b-lg font-bold text-xs xl:text-xs transition duration-300 text-cyan-400 active:text-cyan-600">credential
-                  <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline-block w-4 h-4 xl:w-4 xl:h-4 text-cyan-400 group-hover:ml-2 xl:group-hover:ml-1 duration-200 group-hover:text-cyan-100">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                  </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="card w-60 shadow-lg flex xl:flex xl:w-64 rounded-lg xl:h-max bg-slate-50 dark:bg-slate-900 mb-5">
-                <img src="img/dicoding.jpg" class="xl:w-28 w-24 rounded-l-lg mr-5" alt="">
-                <div class="card-text mt-3 xl:mt-0 xl:flex xl:flex-col xl:justify-center">
-                  <p class="text-slate-900 dark:text-slate-50 font-bold text-sm xl:text-base">SOLID Principal</p>
-                  <p class="text-slate-700 dark:text-gray-400 text-xs">Dicoding</p>
-                  <a href="https://www.dicoding.com/certificates/L4PQGE864ZO1" target="_blank" class="group -mb-2 xl:mt-7 rounded-b-lg font-bold text-xs xl:text-xs transition duration-300 text-cyan-400 active:text-cyan-600">credential
-                  <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline-block w-4 h-4 xl:w-4 xl:h-4 text-cyan-400 group-hover:ml-2 xl:group-hover:ml-1 duration-200 group-hover:text-cyan-100">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                  </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="card w-60 shadow-lg flex xl:flex xl:w-64 rounded-lg xl:h-max bg-slate-50 dark:bg-slate-900 mb-5">
-                <img src="img/dicoding.jpg" class="xl:w-28 w-24 rounded-l-lg mr-5" alt="">
-                <div class="card-text mt-3 xl:mt-0 xl:flex xl:flex-col xl:justify-center">
-                  <p class="text-slate-900 dark:text-slate-50 font-bold text-sm xl:text-base">Basic Java</p>
-                  <p class="text-slate-700 dark:text-gray-400 text-xs">Dicoding</p>
-                  <a href="https://www.dicoding.com/certificates/JMZV9VN0JPN9" target="_blank" class="group -mb-2 xl:mt-7 rounded-b-lg font-bold text-xs xl:text-xs transition duration-300 text-cyan-400 active:text-cyan-600">credential
-                  <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline-block w-4 h-4 xl:w-4 xl:h-4 text-cyan-400 group-hover:ml-2 xl:group-hover:ml-1 duration-200 group-hover:text-cyan-100">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                  </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="card w-60 shadow-lg flex xl:flex xl:w-64 rounded-lg xl:h-max bg-slate-50 dark:bg-slate-900 mb-5">
-                <img src="img/skilvul.jpg" class="xl:w-28 w-24 rounded-l-lg mr-5" alt="">
-                <div class="card-text mt-3 xl:mt-0 xl:flex xl:flex-col xl:justify-center">
-                  <p class="text-slate-900 dark:text-slate-50 font-bold text-sm xl:text-base">Intro to Coding</p>
-                  <p class="text-slate-700 dark:text-gray-400 text-xs">Skilvul</p>
-                  <a href="https://skilvul.com/courses/intro-to-coding/student/climww64902t601mj1biakrj3" target="_blank" class="group -mb-2 xl:mt-7 rounded-b-lg font-bold text-xs xl:text-xs transition duration-300 text-cyan-400 active:text-cyan-600">credential
-                  <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline-block w-4 h-4 xl:w-4 xl:h-4 text-cyan-400 group-hover:ml-2 xl:group-hover:ml-1 duration-200 group-hover:text-cyan-100">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                  </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="card w-60 shadow-lg flex xl:flex xl:w-64 rounded-lg xl:h-max bg-slate-50 dark:bg-slate-900 mb-5">
-                <img src="img/skilvul.jpg" class="xl:w-28 w-24 rounded-l-lg mr-5" alt="">
-                <div class="card-text mt-3 xl:mt-0 xl:flex xl:flex-col xl:justify-center">
-                  <p class="text-slate-900 dark:text-slate-50 font-bold text-sm xl:text-base">Basic HTML</p>
-                  <p class="text-slate-700 dark:text-gray-400 text-xs">Skilvul</p>
-                  <a href="https://skilvul.com/courses/html-dasar/student/climww64902t601mj1biakrj3" target="_blank" class="group -mb-2 xl:mt-7 rounded-b-lg font-bold text-xs xl:text-xs transition duration-300 text-cyan-400 active:text-cyan-600">credential
-                  <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline-block w-4 h-4 xl:w-4 xl:h-4 text-cyan-400 group-hover:ml-2 xl:group-hover:ml-1 duration-200 group-hover:text-cyan-100">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                  </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="card w-60 shadow-lg flex xl:flex xl:w-64 rounded-lg xl:h-max bg-slate-50 dark:bg-slate-900 mb-5">
-                <img src="img/skilvul.jpg" class="xl:w-28 w-24 rounded-l-lg mr-5" alt="">
-                <div class="card-text mt-3 xl:mt-0 xl:flex xl:flex-col xl:justify-center">
-                  <p class="text-slate-900 dark:text-slate-50 font-bold text-sm xl:text-base">Basic CSS</p>
-                  <p class="text-slate-700 dark:text-gray-400 text-xs">Skilvul</p>
-                  <a href="https://skilvul.com/courses/css-dasar/student/climww64902t601mj1biakrj3" target="_blank" class="group -mb-2 xl:mt-7 rounded-b-lg font-bold text-xs xl:text-xs transition duration-300 text-cyan-400 active:text-cyan-600">credential
-                  <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline-block w-4 h-4 xl:w-4 xl:h-4 text-cyan-400 group-hover:ml-2 xl:group-hover:ml-1 duration-200 group-hover:text-cyan-100">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                  </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="card w-60 shadow-lg flex xl:flex xl:w-64 rounded-lg xl:h-max bg-slate-50 dark:bg-slate-900 mb-5">
-                <img src="img/skilvul.jpg" class="xl:w-28 w-24 rounded-l-lg mr-5" alt="">
-                <div class="card-text mt-3 xl:mt-0 xl:flex xl:flex-col xl:justify-center">
-                  <p class="text-slate-900 dark:text-slate-50 font-bold text-sm xl:text-base">Basic CSS</p>
-                  <p class="text-slate-700 dark:text-gray-400 text-xs">Skilvul</p>
-                  <a href="https://skilvul.com/courses/css-dasar/student/climww64902t601mj1biakrj3" target="_blank" class="group -mb-2 xl:mt-7 rounded-b-lg font-bold text-xs xl:text-xs transition duration-300 text-cyan-400 active:text-cyan-600">credential
-                  <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline-block w-4 h-4 xl:w-4 xl:h-4 text-cyan-400 group-hover:ml-2 xl:group-hover:ml-1 duration-200 group-hover:text-cyan-100">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                  </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="card w-60 shadow-lg flex xl:flex xl:w-64 rounded-lg xl:h-max bg-slate-50 dark:bg-slate-900 mb-5">
-                <img src="img/skilvul.jpg" class="xl:w-28 w-24 rounded-l-lg mr-5" alt="">
-                <div class="card-text mt-3 xl:mt-0 xl:flex xl:flex-col xl:justify-center">
-                  <p class="text-slate-900 dark:text-slate-50 font-bold text-sm xl:text-base">Basic C#</p>
-                  <p class="text-slate-700 dark:text-gray-400 text-xs">Skilvul</p>
-                  <a href="https://skilvul.com/courses/intro-to-coding/student/climww64902t601mj1biakrj3" target="_blank" class="group -mb-2 xl:mt-7 rounded-b-lg font-bold text-xs xl:text-xs transition duration-300 text-cyan-400 active:text-cyan-600">credential
-                  <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline-block w-4 h-4 xl:w-4 xl:h-4 text-cyan-400 group-hover:ml-2 xl:group-hover:ml-1 duration-200 group-hover:text-cyan-100">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                  </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="card w-60 shadow-lg flex xl:flex xl:w-64 rounded-lg xl:h-max bg-slate-50 dark:bg-slate-900 mb-5">
-                <img src="img/skilvul.jpg" class="xl:w-28 w-24 rounded-l-lg mr-5" alt="">
-                <div class="card-text mt-3 xl:mt-0 xl:flex xl:flex-col xl:justify-center">
-                  <p class="text-slate-900 dark:text-slate-50 font-bold text-sm xl:text-base">Basic Javascript</p>
-                  <p class="text-slate-700 dark:text-gray-400 text-xs">Skilvul</p>
-                  <a href="https://skilvul.com/courses/javascript-dasar/student/climww64902t601mj1biakrj3" target="_blank" class="group -mb-2 xl:mt-7 rounded-b-lg font-bold text-xs xl:text-xs transition duration-300 text-cyan-400 active:text-cyan-600">credential
-                  <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline-block w-4 h-4 xl:w-4 xl:h-4 text-cyan-400 group-hover:ml-2 xl:group-hover:ml-1 duration-200 group-hover:text-cyan-100">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                  </svg>
-                  </a>
-                </div>
-              </div>          
-            </div>
           </section>
       </main>
       <div class="fixed right-5 bottom-5 rounded z-50">
-        <a href="#top" id="backToTopBtn" class="w-4 h-4  mx-5 text-emerald-600 rounded-full">
+        <a href="#top" id="backToTopBtn" class="w-4 h-4  mx-5 text-cyan-500 rounded-full">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="animate-bounce w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
           </svg>

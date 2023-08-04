@@ -21,15 +21,15 @@
     if (scrollTop > heroOffsetTop) {
       navbar.classList.add("sticky");
       navbar.classList.add("border-b-2");
-      navbar.classList.add("border-emerald-600");
-      navbar.classList.add("backdrop-blur-sm");
+      navbar.classList.add("border-cyan-500");
+      navbar.classList.add("backdrop-blur-lg");
       navbar.classList.add("py-4");
       navbar.classList.add("px-10");
     } else {
       navbar.classList.remove("sticky");
       navbar.classList.remove("border-b-2");
       navbar.classList.remove("border-cyan-200");
-      navbar.classList.remove("backdrop-blur-sm");
+      navbar.classList.remove("backdrop-blur-lg");
       navbar.classList.remove("py-4");
       navbar.classList.remove("px-10");
     }
