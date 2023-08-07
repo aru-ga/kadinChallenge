@@ -871,6 +871,10 @@ video {
   border-top-right-radius: 0.5rem;
 }
 
+.rounded-tl-lg {
+  border-top-left-radius: 0.5rem;
+}
+
 .border-b-2 {
   border-bottom-width: 2px;
 }
@@ -951,6 +955,10 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\.\.\/assets\/img\/sail\.jpg\] {
+  background-color: ../assets/img/sail.jpg;
+}
+
 .bg-\[url\(\'\.\.\/assets\/img\/bait\.jpg\'\)\] {
   background-image: url('../assets/img/bait.jpg');
 }
@@ -1007,6 +1015,10 @@ video {
   padding: 5rem;
 }
 
+.p-14 {
+  padding: 3.5rem;
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -1034,6 +1046,18 @@ video {
 
 .pt-16 {
   padding-top: 4rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .text-center {
@@ -1430,6 +1454,11 @@ video {
     margin-right: 9rem;
   }
 
+  .xl\:mx-48 {
+    margin-left: 12rem;
+    margin-right: 12rem;
+  }
+
   .xl\:mt-0 {
     margin-top: 0px;
   }
@@ -1440,6 +1469,14 @@ video {
 
   .xl\:mt-2 {
     margin-top: 0.5rem;
+  }
+
+  .xl\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .xl\:mt-3 {
+    margin-top: 0.75rem;
   }
 
   .xl\:inline {
@@ -1462,12 +1499,36 @@ video {
     height: 100%;
   }
 
+  .xl\:h-screen {
+    height: 100vh;
+  }
+
+  .xl\:h-40 {
+    height: 10rem;
+  }
+
+  .xl\:h-64 {
+    height: 16rem;
+  }
+
+  .xl\:h-72 {
+    height: 18rem;
+  }
+
   .xl\:w-2\/4 {
     width: 50%;
   }
 
   .xl\:w-3\/12 {
     width: 25%;
+  }
+
+  .xl\:w-3\/6 {
+    width: 50%;
+  }
+
+  .xl\:w-2\/5 {
+    width: 40%;
   }
 
   .xl\:flex-row {
@@ -1482,6 +1543,10 @@ video {
     flex-wrap: wrap;
   }
 
+  .xl\:items-center {
+    align-items: center;
+  }
+
   .xl\:justify-center {
     justify-content: center;
   }
@@ -1492,6 +1557,10 @@ video {
 
   .xl\:p-20 {
     padding: 5rem;
+  }
+
+  .xl\:p-10 {
+    padding: 2.5rem;
   }
 
   .xl\:text-2xl {
