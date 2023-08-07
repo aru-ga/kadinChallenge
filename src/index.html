@@ -75,9 +75,9 @@
 
           
         <section id="guide">
-          <div class="flex h-screen items-center justify-around">
+          <div class="xl:flex flex flex-col  h-screen xl:items-center xl:justify-around">
             <h1>Fishing Gear Guide</h1>
-            <div class="flex gap-10">
+            <div class="xl:flex flex flex-col justify-center items-center gap-10">
               <div class="h-80 cursor-pointer duration-300 flex justify-center items-end bg-[url('../assets/img/bait.jpg')] bg-cover shadow-lg w-48 rounded">
                 <h2 class="backdrop-blur-2xl focus:text-cyan-500 hover:h-full hover:backdrop-brightness-50 hover:font-semibold duration-300 w-full h-14 rounded-b items-center flex justify-center">Bait</h2>
               </div>
@@ -92,7 +92,7 @@
         </section>
 
           <section id="about" >
-              <div class="flex flex-col justify-center items-center h-screen text-center font-sans font-thin">
+              <div class="xl:flex xl:flex-col mt-96 justify-center items-center h-screen text-center font-sans font-thin">
                 <div class="text w-2/3 text-center xl:text-xl">
                   <p>"Set sail with confidence as you explore our comprehensive guides, expert advice, and a vibrant community of fellow sailors. From mastering navigation techniques to understanding the intricacies of marine life, we're your compass on this exciting maritime voyage.
                     <br>
@@ -163,15 +163,17 @@
             <div class="title flex justify-center items-center my-10">
               <a href="cert" class=" text-center  font-semibold border-b-2 border-b-cyan-400">get aboard now</a>
             </div>
-            <div class="xl:h-screen flex justify-around items-center bg-[url('../assets/img/hero.jpg')] bg-cover">
-              <div class="h-full flex items-center justify-center w-3/6 backdrop-blur-sm backdrop-brightness-50 text-slate-50 text-center text-2xl p-5 font-bold shadow-md">
-                Have questions, feedback, or inquiries? We'd love to hear from you! Feel free to reach out using the form below, and our dedicated team will get back to you as soon as possible.
+            <div class="xl:h-screen xl:flex justify-around items-center bg-[url('../assets/img/hero.jpg')] bg-cover">
+              <div class="xl:h-full flex items-center justify-center xl:w-3/6 backdrop-blur-sm backdrop-brightness-50 text-slate-50 text-center text-2xl p-5 font-bold shadow-md">
+                <p class="text-xs xl:text-lg">
+                  Have questions, feedback, or inquiries? We'd love to hear from you! Feel free to reach out using the form below, and our dedicated team will get back to you as soon as possible.
+                </p>
               </div>
-              <div class="h-full flex flex-col justify-around items-center bg-cyan-800 w-3/6">
+              <div class="h-full flex flex-col justify-around items-center backdrop-brightness-50 xl:bg-cyan-800 xl:w-3/6 backdrop-blur-sm">
                 <h2 class="text-2xl font-semibold text-slate-50">Get in Touch with Us</h2>
                 <div class="contact-form ">
                   <p class="mb-10 text-center">We're Here to Assist You</p>
-                    <form action="process-form.php" method="post" class="flex gap-1 flex-col">
+                    <form action="php" method="post" class="flex gap-1 flex-col">
                         <label for="name">Name:</label>
                         <input class="rounded p-2 border-none focus:outline-none focus:ring-2  focus:ring-yellow-500 duration-300" type="text" id="name" name="name" required>
                         <label for="email">Email:</label>
