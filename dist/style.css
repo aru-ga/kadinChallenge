@@ -711,6 +711,10 @@ video {
   height: 80%;
 }
 
+.h-2\/4 {
+  height: 50%;
+}
+
 .w-10 {
   width: 2.5rem;
 }
