@@ -9,7 +9,7 @@
   const body = document.querySelector("body");
   const themeToggle = document.querySelector("#theme-toggle");
   let darkTheme = false;
-  
+
 window.addEventListener("scroll", () => {
   const navbar = document.getElementById("navbar");
   const hero = document.getElementById("hero");
@@ -33,22 +33,21 @@ window.addEventListener("scroll", () => {
     navbar.classList.remove("px-10");
   }
 });
-  
+
 navmob.addEventListener("click", () => {
   const isBackgroundSet = navbar.classList.contains("bg-slate-900");
   navmobE.classList.toggle("-mt-full");
   navmobE.classList.toggle("duration-500");
   navmob.classList.toggle("text-cyan-400");
 });
-  
-  
+
 themeToggle.addEventListener("click", () => {
   body.classList.toggle("dark");
   darkTheme = !darkTheme;
   sun.classList.toggle("hidden");
   moon.classList.toggle("hidden");
 });
-  
+
 window.addEventListener("scroll", function () {
   if (window.scrollY > 200) {
     backToTopBtn.classList.remove("hidden");
@@ -56,7 +55,7 @@ window.addEventListener("scroll", function () {
     backToTopBtn.classList.add("hidden");
   }
 });
-  
+
 backToTopBtn.addEventListener("click", function (e) {
   e.preventDefault();
   const topElement = document.getElementById("top");
